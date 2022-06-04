@@ -1,6 +1,8 @@
+-f https://download.pytorch.org/whl/torch_stable.html
 fastapi==0.78.0
 numpy==1.21.6
 opencv_contrib_python==4.1.2.30
 Pillow==9.1.1
-torch==1.11.0
+torch==1.8.1+cpu 
+torchvision==0.9.1+cpu
 uvicorn==0.13.1
