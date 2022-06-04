@@ -8,7 +8,17 @@ import torch
 import RRDBNet_arch as arch 
 import cv2
 
-app = FastAPI(debug=True)
+description=(""" 
+# Image Super Resolution Model API
+
+This model uses GANs to generate an enhanced image from a base image.
+
+A generative adversarial network is a class of machine learning frameworks designed by Ian Goodfellow and his colleagues in June 2014. Two neural networks contest with each other in a game. Given a training set, this technique learns to generate new data with the same statistics as the training set.
+
+
+""")
+
+app = FastAPI(description=description, debug=True)
 
 model_path = 'RRDB_ESRGAN_x4.pth'  
 #device = torch.device('cuda')  # if you want to run on CPU, change 'cuda' -> cpu
