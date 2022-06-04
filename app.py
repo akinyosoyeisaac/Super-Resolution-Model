@@ -8,7 +8,7 @@ import torch
 import RRDBNet_arch as arch 
 import cv2
 
-app = FastAPI(debug=True)
+app = FastAPI("""Super Resolution Model""",debug=True)
 
 model_path = 'RRDB_ESRGAN_x4.pth'  
 #device = torch.device('cuda')  # if you want to run on CPU, change 'cuda' -> cpu
