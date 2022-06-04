@@ -4,7 +4,6 @@ gunicorn
 numpy==1.21.6
 opencv_contrib_python==4.1.2.30
 Pillow==9.1.1
-torch==1.8.1+cpu 
-torchvision==0.9.1+cpu
+torch==1.11.0+cpu
 uvicorn==0.13.1
 
