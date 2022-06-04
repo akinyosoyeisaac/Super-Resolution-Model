@@ -41,3 +41,5 @@ async def root(file: UploadFile = File(...)):
     #return Response('results.png', media_type="image/png")
     res, im_png = cv2.imencode(".png", output)
     return StreamingResponse(io.BytesIO(im_png.tobytes()), media_type="image/png")
+if __name__ == '__main__': 
+    uvicorn.run(app)
