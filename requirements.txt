@@ -1,9 +1,9 @@
 -f https://download.pytorch.org/whl/torch_stable.html
-fastapi==0.78.0
+fastapi
 gunicorn
-numpy==1.21.6
+numpy
 opencv-python-headless
-Pillow==9.1.1
+Pillow
 torch==1.11.0+cpu
-uvicorn==0.13.1
+uvicorn
 
