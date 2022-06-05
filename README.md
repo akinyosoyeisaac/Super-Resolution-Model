@@ -13,6 +13,17 @@ An API used to upscale the resolution of a given input image. Built with Pytorch
 ## Problem Statement
 The aim of this project was to upscale the resolution of images using deep learning techniques and algorithms such as GANs and also deploy the model as an API using FastAPI framework. The model was developed using Pytorch and ESRGAN. 
 
+**Note:** The model has been tested with both GPU and CPU with the GPU version giving faster response times. To run on GPU make sure you have cuda installed and the pytorch-cuda11 installed for it to work properly.
+
+**To run the model with GPU, change this line in the app.py file:**
+```
+device =torch.device('cpu')
+
+to 
+
+device =torch.device('cuda')
+```
+
 ## About
 The Super-Resolution Generative Adversarial Network (SRGAN) is a seminal work that is capable of generating realistic textures during single image super-resolution. However, the hallucinated details are often accompanied with unpleasant artifacts. To further enhance the visual quality, we thoroughly study three key components of SRGAN - network architecture, adversarial loss and perceptual loss, and improve each of them to derive an Enhanced SRGAN (ESRGAN). In particular, we introduce the Residual-in-Residual Dense Block (RRDB) without batch normalization as the basic network building unit. Moreover, we borrow the idea from relativistic GAN to let the discriminator predict relative realness instead of the absolute value. Finally, we improve the perceptual loss by using the features before activation, which could provide stronger supervision for brightness consistency and texture recovery. Benefiting from these improvements, the proposed ESRGAN achieves consistently better visual quality with more realistic and natural textures than SRGAN and won the first place in the PIRM2018-SR Challenge.
 
@@ -28,6 +39,8 @@ Xintao Wang, Ke Yu, Shixiang Wu, Jinjin Gu, Yihao Liu, Chao Dong, Chen Change Lo
 ## Preview
 
 ![Screenshot (130)](https://user-images.githubusercontent.com/101701760/172054099-dcf043fe-c208-4f39-900a-8256392dcdc8.png)
+
+
 
 
 ## Requirements To Run on Google Colab:
