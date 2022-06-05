@@ -9,13 +9,13 @@ import RRDBNet_arch as arch
 import cv2
 
 description=(""" 
-# Image Super Resolution Model API
+# Super Resolution Model API
 
-This model uses GANs to generate an enhanced image from a base image.
+This API uses GANs to generate an enhanced image from a base image.
 
 A generative adversarial network is a class of machine learning frameworks designed by Ian Goodfellow and his colleagues in June 2014. Two neural networks contest with each other in a game. Given a training set, this technique learns to generate new data with the same statistics as the training set.
 
-
+[GitHub Repository](https://github.com/Nneji123/Super-Resolution-Model)
 """)
 
 app = FastAPI(description=description, debug=True)
@@ -47,8 +47,7 @@ async def root(file: UploadFile = File(...)):
     output = (output * 255.0).round()
 
     
-    #cv2.imwrite('results.png', output)
-    #return Response('results.png', media_type="image/png")
+
     res, im_png = cv2.imencode(".png", output)
     return StreamingResponse(io.BytesIO(im_png.tobytes()), media_type="image/png")
 
