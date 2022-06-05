@@ -123,7 +123,8 @@ git push heroku main
 
 ### Deployment with Github
 1. Clone the repository and copy the contents to your own repository on github
-2. Deploy with Github and Heroku then you're done.
+2. Create a new app name on Heroku.
+2. Choose deploy with Github in deployment options on Heroku and after it's built and deployed you should be able to view your app.
 
 
 ## Documentation
