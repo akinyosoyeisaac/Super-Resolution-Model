@@ -33,7 +33,7 @@ Xintao Wang, Ke Yu, Shixiang Wu, Jinjin Gu, Yihao Liu, Chao Dong, Chen Change Lo
 ## Requirements To Run on Google Colab:
 To run a demo or carry out testing with the API it's best to do that with Google Colab. To run/test the API on Google Colab do the following:
 1. Clone the repository.
-2. Open a Google Colab instance and upload the **.ipynb** file and the **requirements_colab.txt** to that instance.
+2. Open a Google Colab instance and upload the **.ipynb** file to that instance.
 3. Run each cell until the last cell and you should be able to view the API with a link that has the name **ngrok** in it.
 
 ## Requirements to Run on Local Machine
