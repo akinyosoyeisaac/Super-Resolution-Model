@@ -1,5 +1,5 @@
 # Super Resolution Model API
-[![Language](https://img.shields.io/badge/language-python-blue.svg?style=flat)](https://www.python.org)
+[![Language](https://img.shields.io/badge/language-Python-blue.svg?style=flat)](https://www.python.org)
 [![Framework](https://img.shields.io/badge/Pytorch-red.svg?style=flat&logo=pytorch&logoColor=white)](http://www.pytorch.org/news.html)
 [![Framework](https://img.shields.io/badge/Fastapi-darkgreen.svg?style=flat&logo=fastapi&logoColor=white)](http://www.fastapi.org/news.html)
 ![hosted](https://img.shields.io/badge/Heroku-430098?style=flat&logo=heroku&logoColor=white)
@@ -21,10 +21,13 @@ ESRGAN: Enhanced Super-Resolution Generative Adversarial Networks
 
 Xintao Wang, Ke Yu, Shixiang Wu, Jinjin Gu, Yihao Liu, Chao Dong, Chen Change Loy, Yu Qiao, Xiaoou Tang
 
+[Paper](https://arxiv.org/pdf/1609.04802) 
+
+[Code(PyTorch)](https://github.com/xinntao/ESRGAN)
 
 ## Preview
-![Screenshot 2022-05-31 090345](https://user-images.githubusercontent.com/101701760/171123842-ff6cd965-c849-44dd-8ca7-22bac6a007fa.png)
 
+![Screenshot (130)](https://user-images.githubusercontent.com/101701760/172054099-dcf043fe-c208-4f39-900a-8256392dcdc8.png)
 
 
 ## Requirements To Run on Google Colab:
