@@ -106,7 +106,7 @@ git push heroku main
 2. Deploy with Github and Heroku then you're done.
 
 
-## Live Link
+## Documentation
 The api and its documentation can be viewed here: https://super-resolution-api.herokuapp.com/docs or https://super-resolution-api.herokuapp.com/redoc
 
 
