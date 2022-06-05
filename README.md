@@ -1,5 +1,5 @@
 # Super Resolution Model API
-[![Language](https://img.shields.io/badge/language-Python-blue.svg?style=flat)](https://www.python.org)
+[![Language](https://img.shields.io/badge/Python-yellow.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
 [![Framework](https://img.shields.io/badge/Pytorch-red.svg?style=flat&logo=pytorch&logoColor=white)](http://www.pytorch.org/news.html)
 [![Framework](https://img.shields.io/badge/Fastapi-darkgreen.svg?style=flat&logo=fastapi&logoColor=white)](http://www.fastapi.org/news.html)
 ![hosted](https://img.shields.io/badge/Heroku-430098?style=flat&logo=heroku&logoColor=white)
