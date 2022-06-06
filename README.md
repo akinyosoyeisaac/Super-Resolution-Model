@@ -16,7 +16,7 @@ The aim of this project was to upscale the resolution of images using deep learn
 **Note:** The model has been tested with both GPU and CPU with the GPU version giving faster response times. To run on GPU make sure you have cuda installed and the pytorch-cuda11 installed for it to work properly.
 
 **To run the model with GPU, change this line in the app.py file:**
-```
+```py
 device =torch.device('cpu')
 
 to 
