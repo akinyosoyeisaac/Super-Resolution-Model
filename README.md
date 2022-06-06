@@ -52,11 +52,11 @@ To run a demo or carry out testing with the API it's best to do that with Google
 ## Requirements to Run on Local Machine
 1. Clone the repository to your local machine
 1. Install the requirements from the requirements.txt file:
-```
+```py
 pip install -r requirements.txt
 ```
 2. Then from your command line run:
-```
+```py
 python -m uvicorn --port 5000 --host 127.0.0.1 app:app --reload 
 ```
 Then you can view the site on your local server: http://127.0.0.1:5000/ 

@@ -16,6 +16,7 @@ This API uses GANs to generate an enhanced image from a base image.
 A generative adversarial network is a class of machine learning frameworks designed by Ian Goodfellow and his colleagues in June 2014. Two neural networks contest with each other in a game. Given a training set, this technique learns to generate new data with the same statistics as the training set.
 
 [GitHub Repository](https://github.com/Nneji123/Super-Resolution-Model)
+
 """)
 
 app = FastAPI(description=description, debug=True)
