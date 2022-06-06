@@ -5,6 +5,7 @@
 ![hosted](https://img.shields.io/badge/Heroku-430098?style=flat&logo=heroku&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-blue?style=flat&logo=docker&logoColor=white)
 ![build](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat)
+![](https://img.shields.io/github/repo-size/Nneji123/Super-Resolution-Model)
 
 An API used to upscale the resolution of a given input image. Built with Pytorch, FastAPI and Docker.
 
