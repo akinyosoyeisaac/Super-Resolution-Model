@@ -1,4 +1,4 @@
-FROM python:3.9-slim-buster
+FROM python:3.8-slim-buster
 
 WORKDIR /app
 
@@ -17,4 +17,4 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-CMD web: uvicorn app:app --host=0.0.0.0 --port=${PORT:-5000}
+CMD gunicorn -w 3 -k uvicorn.workers.UvicornWorker app:app --bind 0.0.0.0:$PORT
